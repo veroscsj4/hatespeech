@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import CardsIcon from './components/cards';
 import HeroSlider from './components/hero-slider';
-import ContainerImgRight from './components/container-img-right';
 
 const mainSliderItems = [
     {
@@ -70,9 +69,21 @@ class App extends Component {
                                 <h3 className="uk-h1">Lorem ipsum dolor sit amet.</h3>
                                 <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
                             </div>
-                            <div className="uk-border-rounded uk-box-shadow-medium uk-padding uk-background-default">
-                                <p className="uk-h1">TODO</p>
-                            </div>
+                                <textarea className='uk-textarea uk-border-rounded uk-box-shadow-medium' rows={5} placeholder="Schreiben Sie hier den Text"></textarea>
+                                <p className="uk-h4">Wie würden Sie diesen Inhalt klassifizieren?</p>
+                                <div className="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                                    <label><input className="uk-checkbox" type="checkbox" /> Gewalt & Tötung</label>
+                                    <label><input className="uk-checkbox" type="checkbox" /> rassistisch oder sexistische Stereotypisierung</label>
+                                    <label><input className="uk-checkbox" type="checkbox" /> Diskriminierung</label>
+                                    <label><input className="uk-checkbox" type="checkbox" /> Entmenschlichung</label>
+                                </div>
+                                <p className="uk-h4">Aus welcher Quelle kommt dieser Text?</p>
+                                <div className="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                                    <label><input className="uk-radio" type="radio" name="facebook" /> Facebook</label>
+                                    <label><input className="uk-radio" type="radio" name="instagram" /> Instagram</label>
+                                    <label><input className="uk-radio" type="radio" name="reddit" /> Reddit</label>
+                                    <label><input className="uk-radio" type="radio" name="twitter" /> Twitter</label>
+                                </div>
                             <div>
                                 <a className="uk-button uk-button-secondary" href="#">Senden</a>
                             </div>

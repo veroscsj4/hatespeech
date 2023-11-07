@@ -11,7 +11,7 @@ class Navbar extends Component {
                     
                     <div data-uk-grid className="uk-flex uk-flex-middle uk-padding uk-padding-remove-horizontal">
                         <div className="uk-width-2-3 uk-width-1-4@m logo-header uk-first-column">
-                            <a className="uk-display-inline-block" href="#"><img data-uk-svg class="logo-white" src="./assets/img/logo-white.svg"/><img data-uk-svg class="logo-color" src="./assets/img/logo-blau-gelb.svg" width="400" height="auto"/></a>
+                            <a className="uk-display-inline-block" href="#section-start"><img data-uk-svg class="logo-white" src="./assets/img/logo-white.svg"/><img data-uk-svg class="logo-color" src="./assets/img/logo-blau-gelb.svg" width="400" height="auto"/></a>
                         </div>
                         <div className="uk-width-1-3 uk-width-3-4@m">
                             <nav className="nav">

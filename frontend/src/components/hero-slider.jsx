@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class HeroSlider extends Component {
     render() {
         const { items } = this.props;
-        return <div className="main-container-slider uk-position-relative uk-margin-large-bottom">
+        return <div id='section-start' className="main-container-slider uk-position-relative uk-margin-large-bottom">
             <div className="uk-position-relative uk-slideshow" data-uk-slideshow="autoplay:true; autoplay-interval: 4000; animation: fade; pause-on-hover: false; max-height:830;">
                 <ul className="uk-slideshow-items" styles="min-height:830px;">
                     {items.map(item => (

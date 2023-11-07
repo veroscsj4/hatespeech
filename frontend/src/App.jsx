@@ -25,7 +25,7 @@ class App extends Component {
         return <>
             <HeroSlider items={mainSliderItems} />
 
-            <div className="uk-container">
+            <div id='section-hassrede' className="uk-container">
                 <div className="uk-margin-large-top uk-margin-large-bottom uk-child-width-1-1 uk-child-width-1-2@m" data-uk-grid>
                     <div>
                         <div>
@@ -57,7 +57,7 @@ class App extends Component {
                 </div>
             </div>
             <div className="background-pfad-left">
-                <div className="uk-container">
+                <div id='section-melden' className="uk-container">
                     <div>
                         <p className="small-title-center">Lorem Ipsum</p>
                         <h2 className="uk-h1 uk-text-center">Sed frigilla mauris sit amet nibh</h2>
@@ -112,13 +112,13 @@ class App extends Component {
                 </div>
             </div>
             <div className="background-pfad-right">
-                <div className="uk-container blog-expected-height">
+                <div id='section-blog' className="uk-container blog-expected-height">
                     <p className="small-title-center">Unser Blog</p>
                     <h3 className="uk-h1 uk-text-center">Vivamus elementum semper</h3>
                     <p className="uk-h1 uk-text-center">TODO BLOG</p>
                 </div>
             </div>
-            <div className="uk-container">
+            <div id='section-info' className="uk-container">
                 <div className="uk-margin-large-top uk-margin-large-bottom uk-child-width-1-1 uk-child-width-1-2@m" data-uk-grid>
                     <div>
                         <div>

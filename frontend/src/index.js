@@ -11,19 +11,19 @@ import Navbar from "./components/nav"
 const navList = [
     {
         name: 'Melden',
-        url: '#',
+        url: '#section-melden',
     },
     {
         name: 'Hassrede',
-        url: '#',
+        url: '#section-hassrede',
     },
     {
         name: 'Über uns',
-        url: '#',
+        url: '#section-info',
     },
     {
         name: 'Blog',
-        url: '#',
+        url: '#section-blog',
     }
 
 ]

@@ -3,7 +3,7 @@
 
 
 ## Prepare Django in backend
-- [ ] Create virtual environment: python -m venv ./venv
+- [ ] Create virtual environment in the backend directory: python -m venv ./venv
 - [ ] Enter environment: venv\Scripts\activate
 - [ ] pip install the following: django, pylint, psycopg2, paycopg2-binary, pillow
 - [ ] Set python interpreter to the one of the virtual environment: venv/Scripts/python.exe

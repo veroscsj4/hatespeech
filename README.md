@@ -2,6 +2,25 @@
 
 
 
+## Prepare Django in backend
+- [ ] Create virtual environment: python -m venv ./venv
+- [ ] Enter environment: venv\Scripts\activate
+- [ ] pip install the following: django, pylint, psycopg2, paycopg2-binary, pillow
+- [ ] Set python interpreter to the one of the virtual environment: venv/Scripts/python.exe
+- [ ] For the database (postgres): 
+    * Install Postgresql 16
+    * Install pgAdmin 4
+    * For the temporary password of the server I chose: Casino+Poison+Unsmooth6
+    * On the server properties, make sure the Host name/adress is localhost 
+    * Create DB, name: hassmelder
+    * On the terminal, in the project, prepare the migrations: python ./manage.py makemigrations
+    * Migrate to the database: python ./manage.py migrate
+- [ ] Run server: python ./manage.py runserver
+- [ ] Enter as admin: on browser open http://127.0.0.1:8000/admin/ (Or the port that is being used instead of 8000)
+- [ ] Superuser username: admin. Password: admin
+
+
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.

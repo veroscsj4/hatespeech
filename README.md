@@ -19,7 +19,11 @@
 - [ ] Enter as admin: on browser open http://127.0.0.1:8000/admin/ (Or the port that is being used instead of 8000)
 - [ ] Superuser username: admin. Password: admin
 
-
+## Login/Logout/Register
+These can be tested with the following paths:
+- /researchers/login
+- /researchers/register
+- /researchers/logout
 
 ## Getting started
 

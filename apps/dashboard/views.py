@@ -40,7 +40,7 @@ def register(request):
             return redirect('register')
 
     else:
-        return render(request, 'researchers/register.html')
+        return render(request, 'dashboard/register.html')
     
 def login(request):
     if request.method == 'POST':
@@ -58,7 +58,7 @@ def login(request):
             messages.error(request, 'Login unsuccessful')
             return redirect('login')
     else:
-        return render(request, 'researchers/login.html')
+        return render(request, 'dashboard/login.html')
     
 
 def logout(request):

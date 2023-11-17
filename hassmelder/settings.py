@@ -33,9 +33,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'apps.researchers.apps.ResearchersConfig',
-    'apps.post.apps.PostConfig',
-    'apps.pages.apps.PagesConfig',
+    'apps.dashboard.apps.DashboardConfig',
+    'apps.report.apps.ReportConfig',
+    'apps.index.apps.IndexConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

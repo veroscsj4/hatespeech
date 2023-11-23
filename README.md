@@ -5,7 +5,7 @@
 ## Prepare Django in backend
 - [ ] Create virtual environment in the backend directory: python -m venv ./venv
 - [ ] Enter environment: venv\Scripts\activate
-- [ ] pip install the following: django, pylint, psycopg2, paycopg2-binary, pillow
+- [ ] pip install -r requirements.txt
 - [ ] Set python interpreter to the one of the virtual environment: venv/Scripts/python.exe
 - [ ] For the database (postgres): 
     * Install Postgresql 16

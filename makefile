@@ -4,7 +4,7 @@ default: start
 # Define how to start django
 start-django:
 	@echo "Starting Django Server..."
-	@python manage.py runserver
+	@cd backend && python manage.py runserver
 
 # Define how to start react
 start-react:
